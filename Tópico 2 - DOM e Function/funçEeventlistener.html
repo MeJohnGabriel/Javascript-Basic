@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM EVENTS</title>
+<style>
+    div#area{
+        font: normal 28pt Arial;
+        background: orange;
+        color: rgb(255, 0, 0);
+        width: 200px;
+        height: 200px;
+        line-height: 200px;
+        text-align: center;
+    }
+</style>
+</head>
+<body>
+   <!--<div Id="area" Onclick, Onmousemove, Onmouseout = cada qual com sua function"> (CRIANDO UMA FUNÇÃO DE CLICK)-->
+    <div id="area"> <!--FUNÇÃO QUANDO -->
+        <strong>Interact</strong>
+    </div>
+
+    <script>
+        var area = window.document.getElementById('area')
+        area.addEventListener('click', clicar)
+        area.addEventListener('mouseenter', entrou)
+        area.addEventListener('mouseout', saiu)
+
+        function clicar(){              
+            area.innerText = 'Clicou!'
+            area.style.background = 'red'
+            area.style.color = 'white'
+        }
+        function entrou(){
+            area.innerText = 'Entrou'
+            area.style.background = 'blue'
+
+        }
+        function saiu(){
+            area.innerText = 'Saiu'
+            area.style.background = 'green'
+        }
+        
+        
+
+    </script>
+</body> 
+</html>

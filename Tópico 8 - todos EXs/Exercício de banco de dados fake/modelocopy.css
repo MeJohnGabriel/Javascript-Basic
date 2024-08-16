@@ -1,0 +1,51 @@
+body {
+ background: rgb(18, 75, 99);
+ font: normal 16pt Arial;
+}
+
+header{
+color:  white;
+text-align: center;
+font: normal 16px Arial;
+}
+
+section{
+background: #fb5927;
+border-radius: 20px;
+padding: 15px;
+width: 280px;
+height: 350px;
+
+margin: auto;
+box-shadow: 5px 5px 10px rgb(96, 33, 33);
+}
+
+div{
+color: aliceblue;
+font: normal 16px Arial;
+
+padding-top: 10px;
+
+}
+
+img{
+    width: 150px;
+    height: 150px;
+    padding-left: 65px;
+    padding-top: 15px;
+    border-radius: 50%;
+
+}
+footer{
+color: white;
+text-align: center;
+font-style: italic;
+}
+.imgstyle{
+    padding-left: 70px;
+    padding-top: 15px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    
+}

@@ -1,0 +1,43 @@
+body {
+    background: rgb(18, 147, 202);
+    font: normal 16pt Arial;
+   }
+   
+   header{
+   color:  white;
+   text-align: center;
+   font: normal 16px Arial;
+   }
+   
+   section{
+   background: #ffffff;
+   border-radius: 20px;
+   padding: 15px;
+   width: 280px;
+   height: 350px;
+   
+   margin: auto;
+   box-shadow: 5px 5px 10px rgb(71, 67, 67);
+   }
+
+   select{
+    margin-left: 90px ;
+
+   }
+
+   
+   div{
+   color: rgb(0, 0, 0);
+   font: normal 16px Arial;
+   
+   padding-top: 10px;
+   
+   }
+   
+  
+   footer{
+   color: white;
+   text-align: center;
+   font-style: italic;
+   font-size: 20px;
+   }
